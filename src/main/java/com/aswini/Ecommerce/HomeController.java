@@ -18,6 +18,8 @@ public class HomeController
  public ModelAndView  HomeController()
  {
 	ModelAndView modelandview = new ModelAndView("AdminHome");
+	
+	System.out.println("---");
 	return modelandview;
 	
  }
